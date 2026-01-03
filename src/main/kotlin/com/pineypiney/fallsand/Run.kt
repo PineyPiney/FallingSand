@@ -4,7 +4,10 @@ import com.pineypiney.game_engine.LibrarySetUp
 import com.pineypiney.game_engine.window.DefaultWindow
 import com.pineypiney.game_engine.window.DefaultWindowedEngine
 import com.pineypiney.game_engine.window.Window
+import mu.KotlinLogging
 import org.lwjgl.glfw.GLFW
+
+val logger = KotlinLogging.logger("Falling Sand")
 
 fun main() {
 	LibrarySetUp.initLibraries()
